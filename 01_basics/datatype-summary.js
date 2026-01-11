@@ -41,3 +41,32 @@ const myFunction = function(){
 // Array = Object
 // function = Object               // Type of
 // Object = Object
+
+
+////////////////////////////////////////////// STACK & HEAP MEMORY \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+// STACK (Primitive Datatype)  => Pass by Value
+// HEAP (Non-Primitiev Datatype) => Pass by Refernece
+
+
+let userName = "Aman Sharma"
+let anothername = userName
+anothername = "Rishi"                                
+console.log(userName);  // Aman Sharma
+console.log(anothername); // Rishi
+// for example : suppose you have a photocopy [ original are not changed, copy are changed  ]
+
+let userOne ={
+    email : "as@mail.com",
+    upi  : "sbi@ybl"
+}
+
+
+let userTwo = userOne  // Same reference copy hua 
+userTwo.email = "ss@mail.com"
+
+console.log(userOne.email); // ss@mail.com
+console.log(userTwo.email); // ss@mail.com 
+// because it pick the refernece of userOne and use then both are changed
+
+// for example : ek common cupboard [sab log same saman use kar rahe hai]
