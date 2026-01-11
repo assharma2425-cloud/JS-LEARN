@@ -26,3 +26,18 @@ let obj = {
 const myFunction = function(){
     console.log("Hello World");
 }
+
+// Primitive Datatype
+// String = String
+// Boolean = Boolean
+// null = Object
+// Number= Number
+// BigInt = BigInt
+// Symbol = Symbol
+// undefined = undefined
+
+// Non-Primitive Datatype
+
+// Array = Object
+// function = Object
+// Object = Object
