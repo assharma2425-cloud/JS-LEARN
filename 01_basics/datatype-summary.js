@@ -16,21 +16,21 @@ console.log(typeof score); */
 
 // Array, Objects, Function
 
-const arr = ["Krish", "Shaktiman", "Mogli"]
+const arr = ["Krish", "Shaktiman", "Mogli"] // Array
 
 let obj = {
     name: "Aman",
-    age: 20,
-}
+    age: 20,                            // objects
+}                             
 
 const myFunction = function(){
-    console.log("Hello World");
+    console.log("Hello World");                     // Function
 }
 
 // Primitive Datatype
 // String = String
 // Boolean = Boolean
-// null = Object
+// null = Object                   // Typeof
 // Number= Number
 // BigInt = BigInt
 // Symbol = Symbol
@@ -39,5 +39,5 @@ const myFunction = function(){
 // Non-Primitive Datatype
 
 // Array = Object
-// function = Object
+// function = Object               // Type of
 // Object = Object
