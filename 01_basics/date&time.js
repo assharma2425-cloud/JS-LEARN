@@ -8,7 +8,7 @@ console.log(myDate.toJSON()); // Output: 2026-01-15T08:09:45.134Z
 console.log((myDate.toLocaleDateString())); // Output: 1/15/2026
 console.log(myDate.toLocaleString()); // Output: 1/15/2026, 8:09:45 AM
 
-// console.log((typeof(myDate))); // Output: Object
+console.log((typeof(myDate))); // Output: Object
 
 
 // let myCreateDate = new Date(2026, 6, 21)
@@ -16,3 +16,13 @@ let myCreateDate = new Date(2026, 6, 21, 05, 30)
 
 console.log(myCreateDate.toString());
 console.log(myCreateDate.toLocaleString());
+
+
+let myTimeStamp = Date.now();
+console.log(myTimeStamp);
+
+let newDate = new Date();
+console.log(newDate);
+console.log(newDate.getDate() + 1);
+console.log(newDate.getDay());
+
