@@ -12,7 +12,7 @@ console.log((typeof(myDate))); // Output: Object
 
 
 // let myCreateDate = new Date(2026, 6, 21)
-let myCreateDate = new Date(2026, 6, 21, 05, 30)
+let myCreateDate = new Date(2026, 6, 21, 5, 30)
 
 console.log(myCreateDate.toString());
 console.log(myCreateDate.toLocaleString());
@@ -23,6 +23,6 @@ console.log(myTimeStamp);
 
 let newDate = new Date();
 console.log(newDate);
-console.log(newDate.getDate() + 1);
+console.log(newDate.getDate() + 1);2
 console.log(newDate.getDay());
 
