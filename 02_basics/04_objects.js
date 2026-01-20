@@ -43,8 +43,27 @@ const users = [
 
 users[1].email
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
-console.log(tinderUser.hasOwnProperty('fullname'));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
+// console.log(tinderUser.hasOwnProperty('fullname'));
+
+
+const course = {
+    courseName : "JS",
+    price : 999,
+    courseInstractor : "Aman Sharma"
+}
+
+const {courseInstractor : instractor} = course
+console.log(instractor);
+
+
+// {
+//     "name" : "Aman"
+//     "price" : "free"
+// }
+
+// Random User Me for api 
+// and check any JSON formater
