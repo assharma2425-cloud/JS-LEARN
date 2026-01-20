@@ -21,5 +21,10 @@ myObj.email = "assss.com"
 myObj.gretting = function(){
     console.log("hello JS user");
 }
+myObj.grettingTwo = function(){
+    console.log(`hello Mr. ${this.name}`);
+    
+}
 console.log(myObj.gretting());
+console.log(myObj.grettingTwo());
 
