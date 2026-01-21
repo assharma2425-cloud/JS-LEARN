@@ -65,5 +65,5 @@ console.log(instractor);
 //     "price" : "free"
 // }
 
-// Random User Me for api 
+// Random User Me famous for api 
 // and check any JSON formater
