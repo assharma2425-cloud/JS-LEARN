@@ -42,7 +42,7 @@ if (true){
 function userOne(num){
     return num +1;
 }
-userOne()
+console.log(userOne(num = 3))
 
 const userTwo = function(num2){
     return num2 + 4;
